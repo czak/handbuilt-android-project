@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.czak.handbuilt" >
+
+    <uses-sdk android:minSdkVersion="N"
+              android:targetSdkVersion="N" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:label="Hand-built"
+                 android:icon="@drawable/icon">
+        <activity android:name="pl.czak.handbuilt.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
