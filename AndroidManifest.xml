@@ -7,7 +7,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <application android:label="Hand-built"
+    <application android:label="Handbuilt"
                  android:icon="@drawable/icon">
         <activity android:name="pl.czak.handbuilt.MainActivity" >
             <intent-filter>
