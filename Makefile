@@ -2,8 +2,8 @@
 ANDROID_HOME ?=
 
 # Build tools & SDK versions
-build_tools := 24.0.0-preview
-target      := android-n
+build_tools := 24.0.2
+target      := android-24
 
 # Variables
 project     := handbuilt
