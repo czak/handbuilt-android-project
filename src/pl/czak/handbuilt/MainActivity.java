@@ -1,12 +1,13 @@
 package pl.czak.handbuilt;
 
-import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
+
 import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-public class MainActivity extends Activity
+public class MainActivity extends FragmentActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState) {
