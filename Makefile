@@ -20,7 +20,9 @@ out_dir     := build/output
 sources     := $(shell find $(src_dir) -name '*.java')
 resources   := $(shell find $(res_dir) -type f)
 generated   := $(gen_dir)/pl/czak/handbuilt/R.java
-libraries   := $(lib_dir)/com/squareup/picasso/picasso/2.5.2/picasso-2.5.2.jar
+libraries   := $(lib_dir)/com/squareup/picasso/picasso/2.5.2/picasso-2.5.2.jar \
+	vendor/support-v4-24.1.1/classes.jar \
+	vendor/support-v4-24.1.1/libs/internal_impl-24.1.1.jar
 
 # Final zipaligned APK
 $(out_dir)/$(project).apk: $(out_dir)/$(project)-unaligned.apk
